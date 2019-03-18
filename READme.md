@@ -7,3 +7,7 @@
 
 ![ Screenshot](/home/jack/Pictures/mobifarm/home.png)
 ![alt text](https://github.com/Jacksonmwirigi/FarmSponsor/tree/master/app/src/main/res/drawable/screenshot.png)
+<p align="center">
+ 
+  <img src="/home/jack/Pictures/mobifarm/home.png" width="350" alt="Screenshot 1">
+</p>
