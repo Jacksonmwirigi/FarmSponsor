@@ -5,4 +5,4 @@
 #### The funding request includes all the details about the farmer including the type of their product.
 
 
-![alt text](/home/jack/Pictures/mobifarm.png)
+![alt text](/home/jack/Pictures/mobifarm/home.png)
