@@ -5,4 +5,5 @@
 #### The funding request includes all the details about the farmer including the type of their product.
 
 
-![alt text](/home/jack/Pictures/mobifarm/home.png)
+![ Screenshot](/home/jack/Pictures/mobifarm/home.png)
+![alt text](https://github.com/Jacksonmwirigi/FarmSponsor/tree/master/app/src/main/res/drawable/screenshot.png)
