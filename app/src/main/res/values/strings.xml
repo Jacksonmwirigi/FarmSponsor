@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MobiFarm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="street_address">Street Address :</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="full_name">Full Name:</string>
+    <string name="slogan">Connecting Farmers to the Right Donor.</string>
+
+    <string name="status_prompt">Select request status </string>
+
+    <string-array name="status_arrays">
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Rejected</item>
+    </string-array>
+    <string name="user_role">Select Role</string>
+    <string-array name="user_role_array">
+        <item>Farmer</item>
+        <item>Donor</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/details"
+            android:icon="@drawable/ic_account"
+            android:title="Create a Proposal " />
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/register_logo"
+            android:title="Register" />
+        <item
+            android:id="@+id/requests"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Proposals" />
+        <item
+            android:id="@+id/approve"
+            android:icon="@drawable/ic_assignment"
+            android:title="Approvals" />
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/assign"
+            android:icon="@drawable/home_icon"
+            android:title="Assign" />
+        <item
+            android:id="@+id/log_outLink"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Log Out" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

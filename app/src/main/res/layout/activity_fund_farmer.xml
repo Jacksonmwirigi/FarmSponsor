@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.FundFarmer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Image"
+                android:layout_marginBottom="4dp"
+                android:textColor="#000" />
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/prdt_image"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/farmback"
+                android:layout_margin="2dp"
+                android:textColor="@android:color/darker_gray" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:text="Farmer Name"
+                android:textColor="#000" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/TVfarmer_name"
+                android:layout_width="match_parent"
+                android:paddingStart="20dp"
+                android:paddingEnd="2dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:text="Jack"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:text="Product Name"
+                android:textColor="#000" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/TVProduct_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="2dp"
+                android:layout_weight="1"
+                android:text="IoT Cereals "
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="2"
+                android:text="Budget"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/TV_budget1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="2dp"
+                android:layout_weight="1"
+                android:text="KES 200000"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:text="Proposal"
+                android:textColor="#000" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/TV_proposal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="KES 200000"
+                android:paddingStart="20dp"
+                android:paddingEnd="2dp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:text=" Status"
+                android:textColor="#000"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:id="@+id/status_spinner"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="2dp"
+                android:entries="@array/status_arrays"
+                android:prompt="@string/status_prompt"
+                android:layout_height="40dp">
+            </android.support.v7.widget.AppCompatSpinner>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/Comment_inputLayout"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/comment"
+                    android:inputType="textMultiLine"
+                    android:layout_marginBottom="3dp"
+                    android:hint="Comment here"
+                    android:textStyle="italic|normal"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:id="@+id/fund_btn"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/round_shaped"
+                android:layout_height="wrap_content"
+                android:text="Fund " />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

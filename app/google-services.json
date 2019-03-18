@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "932432081051",
+    "firebase_url": "https://foodhub-5e7ed.firebaseio.com",
+    "project_id": "foodhub-5e7ed",
+    "storage_bucket": "foodhub-5e7ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932432081051:android:96334e556601fb41",
+        "android_client_info": {
+          "package_name": "com.example.jackoyee.foodhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932432081051-p08ciqtvthshbjk8dvc5cn1agv2qsjb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jackoyee.foodhub",
+            "certificate_hash": "0221a729515c1bcdd5d21c399d668a14e42df3ed"
+          }
+        },
+        {
+          "client_id": "932432081051-gv6cuqmbk5juebekhub7koac4rcg4k7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeOk8DA7VIK-SWIIzFm-FWqKDLn9_hqfI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932432081051-gv6cuqmbk5juebekhub7koac4rcg4k7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932432081051:android:f3c7b8ff0e049876",
+        "android_client_info": {
+          "package_name": "com.example.jackoyee.foodorders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932432081051-10ll4f9aaoa7cv7tci105jiimd1u3aen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jackoyee.foodorders",
+            "certificate_hash": "0221a729515c1bcdd5d21c399d668a14e42df3ed"
+          }
+        },
+        {
+          "client_id": "932432081051-alv9r0m1pie9o1lu1he41mjtr8e39u63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jackoyee.foodorders",
+            "certificate_hash": "48fc318cb4be4041ef6bf4040f10b90b2be61170"
+          }
+        },
+        {
+          "client_id": "932432081051-gv6cuqmbk5juebekhub7koac4rcg4k7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeOk8DA7VIK-SWIIzFm-FWqKDLn9_hqfI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932432081051-gv6cuqmbk5juebekhub7koac4rcg4k7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932432081051:android:0c3db430f3e83571",
+        "android_client_info": {
+          "package_name": "com.techweezy.mobifarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932432081051-epojpev6gvsa6m0dg8b4uv1nhi2mvb07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techweezy.mobifarm",
+            "certificate_hash": "a8f2296db48e8c276422c37ba4070de2f1260af7"
+          }
+        },
+        {
+          "client_id": "932432081051-gv6cuqmbk5juebekhub7koac4rcg4k7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeOk8DA7VIK-SWIIzFm-FWqKDLn9_hqfI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932432081051-gv6cuqmbk5juebekhub7koac4rcg4k7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
